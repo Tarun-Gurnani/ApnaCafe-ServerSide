@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtName"
+            android:hint="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:inputType="text"
+            app:met_baseColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#000000"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtDescription"
+            android:hint="Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:inputType="textMultiLine"
+            app:met_baseColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#000000"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPrice"
+            android:hint="Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:inputType="number"
+            app:met_baseColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#000000"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtDiscount"
+            android:hint="Discount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:inputType="number"
+            app:met_baseColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#000000"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSelect"
+                android:text="SELECT"
+                android:textColor="@color/colorPrimary"
+                android:shadowColor="@color/colorPrimary"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="8dp" />
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnUpload"
+                android:text="UPLOAD"
+                android:shadowColor="@color/colorPrimary"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="8dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
